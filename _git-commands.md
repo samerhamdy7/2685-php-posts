@@ -28,3 +28,15 @@ git merge branch-name
 
 ## delete the merged branch
 git branch -D branch-name
+
+# get a list of all commits
+git log
+## if the log is too long:
+    to view second page -> press (spacebar)
+    to end the log -> press (q)
+
+# to rollback to previous commit (use commit hash)
+git checkout hased-id
+
+# to return back to the last commit
+git checkout branch-name

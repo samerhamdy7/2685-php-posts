@@ -18,3 +18,13 @@ git checkout branch-name
 
 # check all branches
 git branch
+
+# merge a branch into master
+## Move to branch (master)
+git checkout master
+
+## merge the branch
+git merge branch-name
+
+## delete the merged branch
+git branch -D branch-name

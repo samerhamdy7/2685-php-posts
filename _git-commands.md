@@ -40,3 +40,9 @@ git checkout hased-id
 
 # to return back to the last commit
 git checkout branch-name
+
+# to rename a branch 
+git branch -M newName
+
+# Link local repo to live repo
+git remote add origin [repo_url]

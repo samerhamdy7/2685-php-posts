@@ -1,0 +1,1 @@
+SELECT * FROM 2685_php_posts.pst_messages;
